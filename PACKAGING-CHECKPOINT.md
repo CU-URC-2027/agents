@@ -12,8 +12,8 @@ Initial package for the private repository `CU-URC-2027/agents`.
 - Python wheel and source-distribution builds.
 - Registration of the local `cu-urc-2027` marketplace in Codex.
 
-The existing `research-agent-local` plugin remains the installed working
-prototype. Registering the new catalog does not replace that installation.
+The GitHub-distributed plugin is independent of any developer-local prototype
+folder and contains no machine-specific source path.
 
 ## Passed on GitHub
 
