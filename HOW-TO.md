@@ -11,6 +11,9 @@ references, scripts, and release history are maintained here on GitHub.
    after installing uv so it can find `uv` on your PATH.
 2. Make sure your GitHub account can read the private `CU-URC-2027/agents`
    repository. Complete organization SSO authorization if GitHub requests it.
+   Connect GitHub in Codex as well if you will use rover-specific agents: the
+   Research Agent reads current project context from the private
+   `CU-URC-2027/rover-project` repository through that integration.
 3. In a terminal, add the team's marketplace and install an agent:
 
    ```text

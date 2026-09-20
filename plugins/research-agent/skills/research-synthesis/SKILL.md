@@ -7,6 +7,25 @@ description: "Research a question and produce an evidence-grounded, cited brief 
 
 Use this workflow to turn a bounded research question into a concise, auditable brief. The `research-source` MCP server is read-only: it can search scholarly indexes and retrieve public source pages, but it cannot write to external systems.
 
+## CU-URC-2027 project context
+
+For a rover-related request, GitHub is the source of truth for project context.
+Use the connected GitHub integration to read the current `main` revision of
+`CU-URC-2027/rover-project`; do not rely on a local clone as the authoritative
+copy. Read [rover project context](references/rover-project-context.md) before
+interpreting project constraints.
+
+At minimum, read `AGENTS.md` and `docs/requirements/master-requirements.md`.
+Read the relevant material under `docs/architecture/`, `docs/research/`, and
+`docs/source/` when it affects the question. For a workbook, inspect only the
+relevant sheet or range rather than treating the filename as evidence.
+
+If the GitHub integration is unavailable or cannot read the private repository,
+say that current project context cannot be verified and ask the user to connect
+GitHub. Do not silently substitute a local checkout or a stale copied document.
+Use external sources to complement project context, not to override the current
+rulebook or approved team requirements.
+
 ## Scope the question
 
 Before searching, state the research question, intended audience, boundaries (time period, geography, technology, or population), and what a useful answer will decide. If a missing boundary would materially change the conclusion, ask one focused question. Otherwise, state a reasonable assumption.
@@ -35,3 +54,7 @@ If sources disagree, represent the disagreement, explain the likely reason when 
 Start with a direct answer calibrated to the available evidence. Then include the key findings, limitations or open questions, and a source list with title, publisher or venue, date when available, and URL. Attach a citation to each material claim. Do not cite a source that does not support the claim beside it.
 
 For a decision-oriented request, add a short recommendation and label it as an inference when it goes beyond what the sources establish.
+
+For rover work, distinguish rules, derived requirements, architecture decisions,
+research evidence, assumptions, and recommendations. Cite GitHub file links at
+the revision read, alongside external-source citations where applicable.

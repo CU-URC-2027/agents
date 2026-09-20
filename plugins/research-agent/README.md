@@ -21,11 +21,26 @@ Linux; iOS/iPadOS are not supported local Python hosts for this package.
 Codex performs the reasoning using its configured model; a local MCP process
 does not imply a locally running model or offline research.
 
+## CU-URC-2027 project context
+
+For rover-related research, the agent reads project context from the connected
+GitHub integration at `CU-URC-2027/rover-project` on `main`. This private
+repository is the source of truth for the rulebook, requirements, architecture,
+and research records; those documents are not copied into the plugin package.
+
+Connect GitHub in Codex with an account that can read the team repository before
+using rover-specific prompts. If GitHub access is unavailable, the workflow
+stops rather than presenting a local clone or cached copy as current project
+context.
+
 ## Tools
 
 - `search_openalex`: scholarly metadata discovery.
 - `search_crossref`: DOI and bibliographic metadata discovery.
 - `fetch_public_page`: text extraction from public HTML pages.
+
+The GitHub integration supplies private project-context access; it is separate
+from the MCP server's public-web retrieval tool.
 
 Search results can include duplicate or unrelated records. Confirm title,
 authors, publication year, and the original source before citing a result.

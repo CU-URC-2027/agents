@@ -1,6 +1,6 @@
 {
   "name": "research-agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Evidence-grounded research with local, read-only source tools.",
   "author": {
     "name": "CU-URC-2027"
