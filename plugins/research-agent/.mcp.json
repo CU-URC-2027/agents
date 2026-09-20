@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "research-source": {
+      "command": "uv",
+      "args": ["run", "--locked", "--no-dev", "research-agent-mcp"],
+      "cwd": ".",
+      "startup_timeout_sec": 120
+    }
+  }
+}

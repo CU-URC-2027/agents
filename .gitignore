@@ -1,0 +1,17 @@
+# Machine-specific dependencies and generated files
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+# Credentials and local overrides must never enter the distribution
+.env
+.env.*
+!.env.example
+*.pem
+*.key

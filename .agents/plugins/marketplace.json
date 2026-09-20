@@ -1,0 +1,20 @@
+{
+  "name": "cu-urc-2027",
+  "interface": {
+    "displayName": "CU URC 2027 Agents"
+  },
+  "plugins": [
+    {
+      "name": "research-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Synthesis"
+  short_description: "Produce evidence-grounded research briefs"
+  default_prompt: "Use $research-synthesis to research a question and produce a cited brief."
+
+policy:
+  allow_implicit_invocation: true
