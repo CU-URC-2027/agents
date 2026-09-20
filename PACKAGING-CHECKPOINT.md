@@ -15,10 +15,18 @@ Initial package for the private repository `CU-URC-2027/agents`.
 The existing `research-agent-local` plugin remains the installed working
 prototype. Registering the new catalog does not replace that installation.
 
+## Passed on GitHub
+
+The initial code commit `632917b90a75ab881c6df0d88e641f73ab944497` passed
+[the three-platform workflow](https://github.com/CU-URC-2027/agents/actions/runs/35480121199).
+Windows, macOS, and Ubuntu runners each installed locked dependencies, passed
+all seven tests, and built the Python distributions using Python 3.12.
+This verifies the local server package on each OS; it does not verify every
+Codex desktop installation or a machine with no Python installation.
+
 ## Pending
 
-- macOS and Linux execution: the GitHub Actions matrix is prepared but has not
-  run. CI uses Python 3.12 across the three operating systems.
+- A teammate's first installation through the private GitHub marketplace.
 - No-Python first installation: uv's attempted managed Python 3.12 download
   on this Windows host encountered a missing-target/minor-version-link error.
   The successful clean-copy test used the already installed Python 3.14.6.
