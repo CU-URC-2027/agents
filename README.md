@@ -3,6 +3,9 @@
 Private team distribution of locally executed Codex plugins. The canonical
 source is `https://github.com/CU-URC-2027/agents`.
 
+Start with [HOW-TO.md](HOW-TO.md) for teammate installation, maintenance, and
+development instructions.
+
 Skills and all supporting references, templates, scripts, and assets belong
 under each plugin's `skills/` directory. Teammates install a versioned local
 copy managed by Codex; they do not manually copy or maintain these files.
