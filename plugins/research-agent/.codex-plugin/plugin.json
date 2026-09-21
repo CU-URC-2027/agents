@@ -1,6 +1,6 @@
 {
   "name": "research-agent",
-  "version": "0.1.1",
+  "version": "0.1.1+codex.20260921163938",
   "description": "Evidence-grounded research with local, read-only source tools.",
   "author": {
     "name": "CU-URC-2027"
@@ -12,8 +12,12 @@
     "longDescription": "Produce cited research briefs with a shared team skill and locally executed source tools.",
     "developerName": "CU-URC-2027",
     "category": "Productivity",
-    "capabilities": ["Read"],
-    "defaultPrompt": ["Research a question and produce a cited brief with uncertainty clearly marked."]
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Research a question and produce a cited brief with uncertainty clearly marked."
+    ]
   },
   "mcpServers": "./.mcp.json"
 }
