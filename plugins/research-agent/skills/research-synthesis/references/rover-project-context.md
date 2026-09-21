@@ -11,7 +11,8 @@ editing, but it is not the source of truth for research or design advice.
 2. `docs/requirements/master-requirements.md` for derived team requirements.
 3. Relevant files under `docs/architecture/` for system decisions and models.
 4. Relevant files under `docs/research/` for prior evidence and open questions.
-5. `docs/source/URC-rulebook.pdf` and `docs/source/urc-website-sources.md` for
+5. `docs/source/University Rover Challenge Rules 2026.pdf` and
+   `docs/source/urc-website-sources.md` for
    authoritative competition material and official web sources.
 
 The rulebook governs competition rules. The requirements register records
