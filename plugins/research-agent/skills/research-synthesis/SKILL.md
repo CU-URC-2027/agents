@@ -1,7 +1,24 @@
 ---
 name: research-synthesis
-description: "Research a question and produce an evidence-grounded, cited brief using the local research-source MCP tools. Use when accuracy, traceability, and stated uncertainty matter; do not use for a quick uncited explanation."
+  Use for CU-URC-2027 rover project questions, project summaries,
+  onboarding, requirements interpretation, engineering planning,
+  ROS 2 and Jetson setup planning, and evidence-based research.
+  Retrieve current rover context through GitHub MCP, even for
+  brief conversational answers. Also use for general research
+  requiring evidence-grounded, cited synthesis.
 ---
+
+# Rover requests
+
+For any rover-related request:
+1. Read references/rover-project-context.md.
+2. Retrieve the required project documents through GitHub MCP.
+3. Read relevant architecture and research documents.
+4. Answer at the depth requested, citing the project sources used.
+
+Use scholarly tools when external research is needed.
+If a required tool is unavailable, identify the missing capability.
+Do not substitute conversation history for current project documents.
 
 # Research Synthesis
 
